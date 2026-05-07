@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="room 3.css">
+	<link rel="stylesheet" href="general.css">
+<link rel="stylesheet" href="header.css">
+	<div class="header">
+       
+        <div class="left-section">
+        <img 
+        class="logo"
+        src="web images/logo.png" 
+        >
+		
+		<img 
+        class="hamburger-menu"
+        src="web images/hamburger-menu copy.svg" 
+        >
+        <div class="dropdown-menu">
+            <a href="room1.html" class="dropdown-item" data-label="Room 1" onclick="changeRoom1()">Room 1</a>
+            <a href="#" class="dropdown-item" data-label="Room 2" onclick="changeRoom2()">Room 2</a>
+            <a href="#" class="dropdown-item" data-label="Room 3" onclick="changeRoom3()">Room 3</a>
+            <a href="#" class="dropdown-item" data-label="Room 4" onclick="changeRoom4()">Room 4</a>
+            <a href="#" class="dropdown-item" data-label="Information">Information</a>
+			<a href="#" class="dropdown-item" data-label="Home" onclick="back()">Home</a>
+        </div>
+		</div>
+		</div>
+</head>
+
+
+
+
+
+
+
+<body>
+	<div class="background-container">
+<button onclick="back()" class="back"> &larr; Back </button>
+</button>
+<img class="bunker-background" src="web images/Room 4.png" >
+
+
+
+<div class="b1-container">    
+<a href="https://www.adobe.com/home?mv=other&promoid=LLVYT1CM" 
+target="_blank" rel ="noopener noreferrer" class="b1"  >
+
+ <img class="crate-3" src="web images/r3 crate3.png" >
+<div class=" tool-tip">Crate 2</div>
+</a>
+</div>
+
+
+<img src="web images/r3 crate2.png" class="crate-2">
+
+
+<div class="b2-container">    
+<a class="b2" href="https://www.vev.design/blog/case-study-design-examples/" 
+target="_blank" rel ="noopener noreferrer">
+ <img class="crate-1" src="web images/r3 crate1.png" >
+<div class=" tool-tip-2"> Crate 1</div>
+</a>
+</div>
+
+
+<div class="b3-container">    
+<a class="b3" href="https://www.vev.design/blog/case-study-design-examples/" 
+target="_blank" rel ="noopener noreferrer">
+ <img class="poster" src="web images/r3 poster.png" >
+<div class=" tool-tip"> Poster</div>
+</a>
+</div>
+
+
+
+
+	   
+</body>
+<script>
+	function back(){
+	window.location.href = "bunker.html"
+}
+function changeRoom2(){
+	window.location.href = "room2.html"
+}
+function changeRoom3(){
+	window.location.href = "room3.html"
+}
+function changeRoom4(){
+	window.location.href = "room4.html"
+}
+function changeRoom1(){
+	window.location.href = "room1.html"
+}
+	
+
+</script>
+</html>

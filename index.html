@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="bunker.css">
+	<link rel="stylesheet" href="general.css">
+	<link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="shutter.css">
+    <title> Nuclear design</title>
+
+<div class="header">
+       
+        <div class="left-section">
+        <img 
+        class="logo"
+        src="web images/logo.png" 
+        >
+		
+		<img 
+        class="hamburger-menu"
+        src="web images/hamburger-menu copy.svg" 
+        >
+        <div class="dropdown-menu">
+            <a href="room1.html" class="dropdown-item" data-label="Room 1" onclick="changeRoom1()">Room 1</a>
+            <a href="#" class="dropdown-item" data-label="Room 2" onclick="changeRoom2()">Room 2</a>
+            <a href="#" class="dropdown-item" data-label="Room 3" onclick="changeRoom3()">Room 3</a>
+            <a href="#" class="dropdown-item" data-label="Room 4" onclick="changeRoom4()">Room 4</a>
+            <a href="#" class="dropdown-item" data-label="Information">Information</a>
+            <a href="#" class="dropdown-item" data-label="Home" onclick="changeRoomHome()">Home</a>
+        </div>
+		</div> 
+</div>
+
+</head>
+
+<body>
+	
+  
+    </div>
+    <div class="background-container">
+<img class="bunker-background" src="web images/Bunker.1.png" >
+
+<div class="room-1">    
+<button class="room-1-button" onclick="changeRoom1()"></button>
+<div class=" room-hover">Room 1</div>
+</div>
+
+<div class="room-2">    
+<button class="room-2-button" onclick="changeRoom2()"></button>
+<div class=" room-hover">Room 2</div>
+</div>
+
+<div class="room-3">    
+<button class="room-3-button" onclick="changeRoom3()"></button>
+<div class=" room-hover">Room 3</div>
+</div>
+
+<div class="room-4">    
+<button class="room-4-button" onclick="changeRoom4()"></button>
+<div class=" room-hover">Room 4</div>
+</div>
+</div>
+	
+</body>
+<script>
+function changeRoom2(){
+	window.location.href = "room2.html"
+}
+function changeRoom3(){
+	window.location.href = "room3.html"
+}
+function changeRoom4(){
+	window.location.href = "room4.html"
+}
+function changeRoom1(){
+	window.location.href = "room1.html"
+}
+function changeRoomHome(){
+	window.location.href = "bunker.html"
+}
+
+</script>
+</html>
